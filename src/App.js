@@ -30,10 +30,10 @@ function App() {
     <div style={{backgroundColor:'#131F2F'}}>
       <img  style={{width:'100%'}}src={ad}/>
     </div>
-    <div style={{backgroundColor:'white'}}>
+    <div style={{marginButtom:'200'}}>
       <h style={{marginRight: '20px'}}>Home</h>
-      <h>Blogs</h>
-      <hr style={{display:'flex',width:'1350px', borderColor: '#3333334D' }} />
+      <h style={{alignItems:'center', justifyContent:'center'}}>Blogs</h>
+      <hr style={{display:'flex',width:'1350px', borderColor: '#3333334D' }} /> 
     </div>
     </div>
   );
